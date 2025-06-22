@@ -7,10 +7,13 @@ export default {
   theme: {
     extend: {
         fontFamily: {
-            inter: ['Inter', 'sans-serif'],
-            poppins: ['Poppins', 'sans-serif'],
-            roboto: ['Roboto', 'sans-serif'],
-        }
+            'inter': ['Inter', 'sans-serif'],
+            'poppins': ['Poppins', 'sans-serif'],
+            'roboto': ['Roboto', 'sans-serif'],
+        },
+        boxShadow: {
+        'custom-light': '1px 5px 50px 0px rgba(84, 99, 122, 0.1)',
+      },
     },
   },
   plugins: [],
